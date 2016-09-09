@@ -1,1 +1,67 @@
-/* Inserta tu codigo aqui */
+nav ul li a{
+	list-style-type: none;
+	text-decoration: none;
+	color:black;
+	padding-right: 5%;
+	text-align:center;
+	margin-left: 3%;
+
+}
+
+nav ul li{
+	display: inline;
+}
+nav ul{
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 2.5%;
+}
+.titulo h1{
+	text-align: center;
+	margin-bottom: 2%;
+	color:#1c2a50;
+	font-size: 190%;
+}
+.nosotros{
+	background-image: url(../img/dance_7.jpg);
+	background-size: 150%;
+	height: 450px;
+}
+.centro h1{
+	font-size: 200%;
+	color:white;
+}
+.centro p{
+	color: white;
+}
+.centro{
+	position: relative;
+	left: 25%;
+	margin-top: 10%;
+	text-align: center;
+	background:rgba(29,29,30,0.4);
+	width: 45%;
+	height: 150px;
+	padding: 2%;
+}
+.tres{
+	background-image: url(../img/cubes.png);
+	width:100%;
+	
+}
+.linea{
+	border-bottom: 2px gray solid;
+}
+.pilares{
+	padding:5%;	
+	width: 15%;
+	text-align: center;
+	margin:auto;
+	margin-left: 4.9%;
+}
+.pilares p{
+	font-size: 12px;
+}
+.pilares h1{
+	font-size: 130%;
+}
