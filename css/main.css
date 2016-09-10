@@ -18,7 +18,7 @@ nav ul{
 	margin-left: 3%;
 	margin-bottom: 2.5%;
 }
-.titulo h1{
+.titulo1 h1{
 	text-align: center;
 	margin-bottom: 2%;
 	color:#1c2a50;
@@ -68,14 +68,17 @@ nav ul{
 	width: 30%;
 	height: 20px;
 	padding:3%;
+
 	background-color: #1a2952;
 	border-radius: 5px;
-	margin-left: 33%;	
+	margin-left: 35%;	
 
 }
 .ofertas a{
 	text-decoration: none;
 	color:white;
+	text-align: center;
+	padding-bottom:3%;
 
 }
 .descrip{
@@ -105,6 +108,21 @@ nav ul{
 	background-size: 100%;
 	height: 450px;
 	
+}
+.boton{
+	position: relative;
+	left: 450px;
+	right: 0;
+	bottom: 0;
+	top:-76px;
+	margin: 0 auto;
+	width: 500px;
+	padding: 2%;
+	background-color: #192951;
+	text-align: center;
+}
+.boton a{
+	text-decoration: none;
 }
 
 /*.crop{
@@ -168,73 +186,4 @@ nav ul{
 }
 .mapa{
 	padding-top: 5%;
-}
-.contacto{
-	margin-top: 6%;
-
-}
-.contacto h1{
-	font-size: 200%;
-	color:#1a2952;
-	margin-left:4.5%;
-}
-.formulario{
-	width: 100%;
-	height: 450px;
-}
-
-.contacto form{
-
-	width: 100%;
-	margin:auto;
-	background-color: white;
-	padding:5px 5px;
-	box-sizing: border-box;
-	margin-bottom: 20px;
-	margin-left: 10%;
-}
-input textarea{
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-	font-size:15px;	
-}
-input{
-	display: block;
-	border: 1px solid black;
-	width: 90%;
-	margin-top: 5%;
-	height:30px;
-}
-#bto{
-	background-color: #1a2952;
-	width: 100%;
-	padding: 2px;
-	color:#fff;
-	display: block;
-	font-size: 150%;
-	box-sizing: border-box;
-	margin-top: 10%;
-	text-align: center;
-}	
-
-}
-textarea{
-	/*margin-top: 20%;
-	min-height: 100px;
-	max-height: 200px;
-	max-width: 100%;*/
-	width: 100%;
-	height: 200px;
-	border: 4px solid black;
-	
-}
-footer{
-	width: 100%;
-	height: 25px;
-	background-color: #1a2952;
-	padding:1.5%;
-	color:white;
-	clear: both;
 }

@@ -47,14 +47,14 @@ nav ul{
 .tres{
 	background-image: url(../img/cubes.png);
 	width:100%;
-	
+	padding:5% 1% 5% 1%;
 }
 .linea{
 	border-bottom: 2px gray solid;
 }
 .pilares{
 	padding:5%;	
-	width: 15%;
+	width: 27%;
 	text-align: center;
 	margin:auto;
 	margin-left: 4.9%;
@@ -65,3 +65,49 @@ nav ul{
 .pilares h1{
 	font-size: 130%;
 }
+.titulo2 h1{
+	text-align: center;
+	/*margin-left:1%;*/
+}
+.profe{
+	padding:0.9%;
+	height: 300px;
+}
+.pic{
+	height: 180px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.titulo2{
+	margin-top: 10%;
+
+}
+.profe-fila{
+	margin-bottom: 10%;
+}
+.titulo2 h1{
+	font-weight: bold;
+	font-size: 170%;
+}
+
+.frase{
+	background-image:url(../img/cubes.png);
+	width:100%;
+}
+
+
+.inspiradora{
+	text-align: center;
+}
+.inspiradora p{
+	font-style:italic;
+	font-size: 300%;
+	padding: 10%;
+}
+/*.profe img{
+	width: 100%;
+	padding: 2%;
+	height: 250px;
+	overflow: hidden;
+
+}*/

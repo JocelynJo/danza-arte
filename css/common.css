@@ -1,1 +1,88 @@
-/* Inserta tu codigo que es común para todas las páginas aqui */
+
+*{
+
+	box-sizing: border-box;
+}
+
+.contacto{
+	margin-top: 6%;
+
+}
+.contacto h1{
+	font-size: 200%;
+	color:#1a2952;
+	margin-left:4.5%;
+}
+#formulario{
+	background-image: url(../img/shoes_!.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	height: 500px;
+}
+
+
+.mensaje .msj{
+	background-color: transparent; 
+	padding: 2% 0 0 7%;
+	font-size: 16px;
+	margin: 0% auto;
+	width: 10%;
+	height: 300px;
+	border: 2px solid #e0e0e0;
+}
+.contacto form .txt{
+	/*display: block;*/
+	background-color: transparent;
+	border: 1px solid black;
+	width: 30%;
+	height:30px;
+	margin-left:5%;
+}
+.contact form .txt{
+	background-color: transparent;
+	border: 1px solid black;
+	width: 30%;
+	height:30px;
+	margin-left:5%;
+	margin-top: -20%;
+
+}
+.contacto form .txt{
+	margin-top: 1%;
+}
+
+#bto{
+	background-color: #1a2952;
+	width: 30%;
+	padding: 2px;
+	color:#fff;
+	display: block;
+	font-size: 150%;
+	box-sizing: border-box;
+	margin-top: 2%;
+	text-align: center;
+	margin-left: 5%;
+}
+	
+
+
+/*textarea{
+	margin-top: 20%;
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	width: 40%;
+	height: 200px;
+	border: 4px solid black;
+	
+}*/
+
+footer{
+	width: 100%;
+	height: 25px;
+	background-color: #1a2952;
+	padding:1.5%;
+	color:white;
+	clear: both;
+}
