@@ -14,7 +14,7 @@
 	<header >
 		<div class="container">
 			<div class="row">
-				<div class="col-12 titulo">
+				<div class="col-12 titulo1">
 					<h1>ESCUELA DE DANZA</h1>
 				</div>
 			</div>
@@ -70,12 +70,17 @@
 			</div>
 		</div>
 	</section>
-	<!--Pendiente-->
+	<!--Instruct-->
 	<section>	
-		<div class="container instructor">
+		<div class="container-fluid instructor">
 			<div class="row ">
 				<div class="col-6 foto"></div>
 				<div class="col-6 foto1"></div>
+				<div class="row">
+					<div class="col-12 boton">
+						<a href="nosotros.html" class="text-white">Nuestros instructores</a>
+					</div>	
+				</div>
 			</div>
 		</div>
 	</section>
@@ -111,24 +116,30 @@
 		</div>
 	</section>
 	<!--CONTACTO-->
-	<section>
-		<div class="container formulario">
+	<section id="formulario">
+		<div class="container-fluid ">
 			<div class="row">
-				<div class="col-5 contacto">
-
+				<div class="col-12 contacto">
 					<h1>Contáctanos</h1>
 					<form action="">
-						<input type="text" name="Nombre" placeholder="Nombre">
-						<input type="text" name="email" placeholder="Email">
-						<textarea name="Mensaje" placeholder="Mensaje"> </textarea>
-						
-						<input type="button" value="Enviar" id="bto">
-						
+						<input type="text" class="txt"  name="Nombre" placeholder="Nombre">
 					</form>
-					
-				</div>
-				<div class="col-7">
-					<img src="img/shoes_1.jpg" alt="">
+					<div class="row">
+						<div class="col-12 contac">
+							<form>
+								<input class="txt" type="text" name="email" placeholder="Email">
+							</form>
+						</div>	
+					</div>
+					<div class="row">
+						<div class="col-12 mensaje">
+							<form>
+								<textarea class="msj txt" placeholder="Escribe mensaje" required></textarea>
+								<i class="lapiz" aria-hidden="true"></i>
+								<input type="button" value="Enviar" id="bto">
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
